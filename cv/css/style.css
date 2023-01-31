@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+}
+
+a.google:link, a.google:visited {
+    color: yellow;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.contact:link, a.contact:visited {
+    background-color: dodgerblue;
+    border: 3px solid pink;
+    padding: 1px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+a.contact:hover, a.contact:active {
+    background-color: green;
+    border: 3px solid palevioletred;
+    text-decoration: none;
+}
+
+hr{
+    border-color: palegreen;
+    border-width: 3px;
+    border-radius: 1px;
+}
+
+.top{
+    padding: 300px;
+
+    background-image: url(../images/nightsky.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clouds1{
+    position: absolute;
+    top: 480px; left: 500px;
+    width: 3em;
+    border: 5px solid coral;
+}
+.clouds2{
+    position: absolute;
+    top: 480px; left: 730px;
+    width: 3em;
+    border: 5px solid darkgoldenrod;
+}
+.clouds3{
+    position: absolute;
+    top: 480px; left: 950px;
+    width: 3em;
+    border: 5px solid yellowgreen;
+}
+
+.middle{
+    background-color: #567189;
+    padding: 80px;
+
+    text-align: center;
+    color:beige;
+}
+
+.bottom{
+    background-color: gainsboro;
+    border-top: 5px solid burlywood;
+    text-align: center;
+    padding: 15px;
+}
+h1{
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    font-size: 40px;
+    color: #FFFFE8;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    font-size: 30px;
+    color: burlywood;
+}
+
+h3{
+    text-align: center;
+    font-family: 'Neucha', cursive;
+    font-size: 20px;
+    color: aqua;
+}
+
+.row{
+    width: 50%;
+    margin: 100px auto;
+}
+
+.column{
+    display: inline-block;
+    text-align: left;
+}
+
+.left{
+    float: left;
+    width: 50%;
+}
+
+.right{
+    height: 150px;
+}
+
+.le{
+    display: inline-block;
+    text-align: left;
+}
+
+.leLeft{
+    float: left;
+    width: 50%;
+}
+
+.leRight{
+    height: 150px;
+}
+
+.sk{
+    display: inline-block;
+    text-align: left;
+}
+
+.skLeft{
+    float: left;
+    width: 50%;
+}
+
+.skMiddle{
+    width: 20%;
+}
+
+.skRight{
+    float: right;
+    width: 20%;
+}
+
+.toContact{
+    float: none;
+}
+
+.contactTop{
+    background-color: #567189;
+    text-align: center;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    width: auto;
+    border-radius: 50px;
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 100px auto;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+input, textarea{
+    border: 1px solid rgba(146, 144, 144, 0.6);
+    background-color: #f3f3f3;
+    padding: 15px;
+    width: 90%;
+    margin: 12px auto;
+    display: block;
+}
+
+textarea{
+    min-height: 40px;
+}
+
+.col d-flex justify-content-center{
+    background-color: #567189;
+}
+
+
