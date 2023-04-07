@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+.App {
+  text-align: center;
+}
+
+/* components/Users/Users.css */
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* components/UserItem/UserItem.css */
+.user-item {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.user-item-img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.user-item-name {
+  font-size: 24px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+/* components/Card/Card.css */
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
