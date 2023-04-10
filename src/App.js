@@ -7,19 +7,19 @@ const DUMMY_USERS = [
   
   {
     id: 'u1',
-    name: 'Cat',
-    image: './Images/catcat.png',
+    name: 'Cat Lover',
+    image: './Images/catcat.pngs',
   },
   
   {
     id: 'u2',
-    name: 'Dog',
+    name: 'Dog Lover',
     image: './Images/dogdog.png',
   },
 
   {
     id: 'u3',
-    name: 'Catdog',
+    name: 'Catdog Lover',
     image: './Images/catdog.jpg',
   },
 
