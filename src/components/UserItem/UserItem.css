@@ -1,0 +1,37 @@
+/* components/UserItem/UserItem.css */
+.user-item {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .user-item-img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .user-item-name {
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 0;
+  }
+
+  .user-class-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%; /* Make the image circular */
+    margin-right: 20px; /* Add space between image and name */
+  }
+  
+  .user-class-name {
+    margin: 0;
+    line-height: 100px; /* Vertically align the name with the image */
+  }
+  
+  .user_class {
+    display: flex; /* Display the contents in a row */
+    align-items: center; /* Vertically align the image and name */
+  }
+  

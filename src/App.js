@@ -4,23 +4,25 @@ import Users from './components/Users/Users';
 import './App.css';
 
 const DUMMY_USERS = [
+  
   {
     id: 'u1',
     name: 'Cat',
-    image: 'https://some-path-to-image'
+    image: './Images/catcat.png',
   },
   
   {
     id: 'u2',
     name: 'Dog',
-    image: 'https://some-path-to-image'
+    image: './Images/dogdog.png',
   },
 
   {
     id: 'u3',
-    name: 'Buzz Lightyear',
-    image: 'https://some-path-to-image'
-  }
+    name: 'Catdog',
+    image: './Images/catdog.jpg',
+  },
+
 ];
 
 function App() {

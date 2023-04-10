@@ -1,0 +1,6 @@
+/* components/Users/Users.css */
+.users {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
